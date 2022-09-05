@@ -1,0 +1,29 @@
+.contador{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 100%;
+}
+
+div{
+  display: flex;
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+div button{
+  font-size: 1rem;
+  font-weight: bolder;
+  height: 30px;
+  width: 30px;
+  margin: 0 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 50%;
+}
