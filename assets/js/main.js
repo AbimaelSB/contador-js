@@ -2,9 +2,6 @@ var cont = document.getElementById("nAtual");
 var numero = parseInt(cont.innerText);
 var botoes = document.getElementsByTagName('button');
 
-console.log(cont);
-console.log(numero);
-
 function subtrair() {
   if(numero>-10){
     numero--;
